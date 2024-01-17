@@ -125,6 +125,13 @@ h6 {
   cursor: pointer;
 }
 
+a:link.nav-cta {
+  background-color: #0d72d6;
+  color: #fff;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.2em;
+}
+
 @media (max-width: 62.5rem) {
   .hamburger {
     display: flex;

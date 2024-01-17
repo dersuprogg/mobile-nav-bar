@@ -127,7 +127,8 @@ h6 {
   cursor: pointer;
 }
 
-a:link.nav-cta {
+a:link.nav-cta,
+a:visited.nav-cta {
   background-color: #0d72d6;
   color: #fff;
   padding: 0.4rem 1.2rem;

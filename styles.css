@@ -99,22 +99,17 @@ h6 {
 }
 
 .hamburger {
-  display: flex;
   flex-direction: column;
   gap: 3px;
   align-items: center;
+  display: flex;
+  margin-left: auto;
 }
 
 .slice {
   width: 22px;
   height: 3px;
   background-color: #0d72d6;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-  gap: 5px;
 }
 
 .close-btn {

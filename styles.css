@@ -8,6 +8,10 @@
   margin: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -42,4 +46,29 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+.logo {
+  height: 3.2rem;
+}
+
+.header {
+  padding: 0.8rem 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 3.2rem;
+  list-style: none;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #0766ad;
 }

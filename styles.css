@@ -98,11 +98,19 @@ h6 {
   border-radius: 0.3em;
 }
 
+.close-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 3.6rem;
+  color: #0d72d6;
+  display: none;
+}
+
 .hamburger {
   flex-direction: column;
   gap: 3px;
   align-items: center;
-  display: flex;
+  display: none;
   margin-left: auto;
 }
 
@@ -110,13 +118,6 @@ h6 {
   width: 22px;
   height: 3px;
   background-color: #0d72d6;
-}
-
-.close-btn {
-  border: none;
-  background-color: transparent;
-  font-size: 3.6rem;
-  color: #0d72d6;
 }
 
 .hamburger:hover,

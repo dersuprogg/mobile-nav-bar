@@ -15,4 +15,5 @@ contactLink.addEventListener("click", (e) => {
   e.preventDefault();
   const sectionEl = e.target.getAttribute("href");
   document.querySelector(sectionEl).scrollIntoView({ behavior: "smooth" });
+  header.classList.contains("nav-open") && header.classList.remove("nav-open");
 });

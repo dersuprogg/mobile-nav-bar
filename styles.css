@@ -75,6 +75,12 @@ h6 {
   text-decoration: none;
   font-size: 1.8rem;
   color: #0766ad;
+  padding: 2px;
+}
+
+.nav-list a:active,
+.nav-list a:hover {
+  box-shadow: 0 0 0 6px rgba(7, 101, 173, 0.8);
 }
 
 .hero {

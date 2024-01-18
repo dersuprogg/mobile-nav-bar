@@ -184,4 +184,13 @@ a:visited.nav-cta {
   .nav-open .hamburger {
     display: none;
   }
+
+  .logo {
+    height: 2.4rem;
+  }
+
+  .hero p {
+    width: 95%;
+    max-width: 50rem;
+  }
 }
